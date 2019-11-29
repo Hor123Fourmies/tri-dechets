@@ -1,0 +1,169 @@
+body{
+    background: #106900;
+}
+
+h1{
+    text-align: center;
+    font-family: "Comic Sans MS";
+    font-size: 32px;
+    color: cornsilk;
+}
+
+p{
+    text-align: center;
+    font-family: "Comic Sans MS";
+    font-size: 24px;
+    color: cornsilk;
+}
+
+#pageAccueil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bloc{
+    border: 4px solid cornsilk;
+}
+
+#blocGauche{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 620px;
+}
+
+#blocDroit{
+    border: 4px solid cornsilk;
+    width: 620px;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#dechets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+    margin-top: 25px;
+}
+
+.photoDechet{
+    display: none;
+    padding-top: 40px;
+}
+
+#placeBouton{
+    padding: 25px;
+}
+
+#boutonSuivant{
+    height: 65px;
+    width: 225px;
+    font-family: "Comic Sans MS";
+    color: #106900;
+    font-weight: bold;
+    background: cornsilk;
+    font-size: 20px;
+}
+
+#poubelles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+#poubelleJaune{
+    color: #E0D42B;
+    padding: 20px;
+}
+
+#poubelleVerte{
+    color: #0B2E13;
+    padding: 20px;
+}
+
+#poubelleBleue{
+    color: #16193D;
+    padding: 20px;
+}
+
+#poubelleMarron{
+    color: #69471E;
+    padding: 20px;
+}
+
+#divTexte{
+    height: 60px;
+    font-family: "Comic Sans MS";
+    color: cornsilk;
+    font-size: 28px;
+}
+
+#divTexteJaune{
+    height: 60px;
+    color: #E0D42B;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    font-size: 24px;
+}
+
+#divTexteVert{
+    height: 60px;
+    color: #0B2E13;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    font-size: 24px;
+}
+
+#divTexteBleu{
+    height: 60px;
+    color: #16193D;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    font-size: 24px;
+}
+
+#divTexteMarron{
+    height: 60px;
+    color: #69471E;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    font-size: 24px;
+}
+
+#divPoints{
+    height: 45px;
+    font-family: "Comic Sans MS";
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#divBravo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#boutonRejouer{
+    display: none;
+    height: 65px;
+    width: 220px;
+    font-family: "Comic Sans MS";
+    color: #106900;
+    font-weight: bold;
+    background: cornsilk;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+
